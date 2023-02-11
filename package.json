@@ -1,0 +1,24 @@
+{
+    "name": "corn-proxy",
+    "version": "1.0.0",
+    "description": "Corn proxy made with ultraviolet",
+    "type": "module",
+    "engines": {
+        "npm": ">=7.0.0",
+        "node": ">=16.0.0"
+    },
+    "scripts": {
+        "start": "node src/index.js"
+    },
+    "keywords": [
+        "proxy"
+    ],
+    "author": "",
+    "license": "GPL-3.0-or-later",
+    "dependencies": {
+        "@titaniumnetwork-dev/ultraviolet": "^1.0.8-beta",
+        "@tomphttp/bare-server-node": "^1.2.3",
+        "express": "^4.18.2",
+        "corn-proxy-static": "github:corn-unblocked/corn-proxy-static"
+    }
+}
